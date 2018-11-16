@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="350">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Margin="10,3,124,0">
+               Your Vehicles
+        </TextBlock>
+        <Line></Line>
+        <Button x:Name="button" Content="" VerticalAlignment="Top" Width="35" Margin="295,10,0,0" Height="35" FontSize="36" HorizontalAlignment="Left"/>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="503" Margin="10,50,0,0" VerticalAlignment="Top" Width="320">
+            <ListView.View>
+                <GridView>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
